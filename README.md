@@ -1,13 +1,12 @@
-# CPSLAM
+# CP-SLAM
 This work extends [PlanarSLAM](https://arxiv.org/abs/2010.07997) to extract a indoor cylinder surface. 
 
 **Authors:** Yuhan Dong, Yechen Shi, Ying Yang, and Junyuan Yang
 
-### updated on 11.12.2021
 
-We updated the planar meshing section by making use of a more efficient triangulation method, rather than the greedy algorithm from PCL. If the PCL window shows nothing, maybe you could click "R" after selecting the window. 
+In some specific scenarios, the success rate of plane exactor is quite limited, so we fuse a feature slam algorithm based on cylinder plane[CP-SLAM]
 
-ps: the reconstruction method is still very naive, we will keep moving.
+ps: the cylinder method is still very naive, we will keep moving.
 
 ![planarReconstruction](Examples/demo.png)
 
@@ -109,24 +108,6 @@ We use [PCL](http://www.pointclouds.org/) to reconstruct and visualize mesh. Dow
 
 ----
 
-## Citation
-```
-inproceedings{Li2021PlanarSLAM,
-  author = {Li, Yanyan and Yunus, Raza and Brasch, Nikolas and Navab, Nassir and Tombari, Federico},
-  title = {RGB-D SLAM with Structural Regularities},
-  year = {2021},
-  booktitle = {2021 IEEE international conference on Robotics and automation (ICRA)},
- }
-```
-```
-inproceedings{Li2020SSLAM,
-  author = {Li, Yanyan and Brasch, Nikolas and Wang, Yida and Navab, Nassir and Tombari, Federico},
-  title = {Structure-SLAM: Low-Drift Monocular SLAM in Indoor Environments},
-  year = {2020},
-  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
- }
-```
-
 ## Acknowledgement
 
-ORB_SLAM2 and the corresponding community.
+Thanks to Professor Maani Ghaffari and the ROB 530 course staff for their kind help.
