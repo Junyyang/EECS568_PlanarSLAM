@@ -9,7 +9,7 @@ We updated the planar meshing section by making use of a more efficient triangul
 
 ps: the reconstruction method is still very naive, we will keep moving.
 
-![planarReconstruction](Examples/planarReconstruction.png)
+![planarReconstruction](Examples/demo.png)
 
 ----
 
