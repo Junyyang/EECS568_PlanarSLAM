@@ -10,11 +10,6 @@ ps: the cylinder method is still very naive, we will keep moving.
 
 ![planarReconstruction](Examples/demo.png)
 
-----
-
-
-
-<a href="https://www.youtube.com/watch?v=zvmnCFIp58U"><img src="Examples/ICRA21-teasear.png"/></a>
 
 ## License
 
