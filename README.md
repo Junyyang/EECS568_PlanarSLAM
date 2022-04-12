@@ -28,36 +28,7 @@ ps: the cylinder method is still very naive, we will keep moving.
    sudo make install
    ```
 
-### Test the system locally
 
-1. Download **'freiburg3_structure_texture_far'** and  associate RGB-D pairs based on [associate.py](http://vision.in.tum.de/data/datasets/rgbd-dataset/tools) provided by the dataset.
-
-   ```
-   python associate.py PATH_TO_SEQUENCE/rgb.txt PATH_TO_SEQUENCE/depth.txt > associations.txt
-   ```
-
-2. Compile the system
-
-```
-./build.sh
-```
-
-​	3.  Run the system
-
-```
-./Examples/RGB-D/Planar_SLAM Vocabulary/ORBvoc.txt Examples/RGB-D/TUM3.yaml PATH_TO_SEQUENCE_FOLDER .PATH_TO_SEQUENCE_FOLDER/ASSOCIATIONS_FILE
-```
-
-*similar command for testing ICL-NUIM sequences*
-
-```
-./Examples/RGB-D/Planar_SLAM Vocabulary/ORBvoc.txt Examples/RGB-D/ICL.yaml PATH_TO_SEQUENCE_FOLDER  PATH_TO_SEQUENCE_FOLDER/ASSOCIATIONS_FILE
-
-```
-
-
-
-----
 
 ## Acknowledgement
 
