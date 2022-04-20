@@ -4,9 +4,14 @@ This work extends [PlanarSLAM](https://arxiv.org/abs/2010.07997) to extract a in
 **Authors:** Yuhan Dong, Yechen Shi, Ying Yang, and Junyuan Yang
 
 
-In some specific scenarios, the success rate of plane exactor is quite limited, so we fuse a feature slam algorithm based on cylinder plane[CP-SLAM]
 
-ps: the cylinder method is still very naive, we will keep moving.
+## Introduction 
+
+Visual Simultaneous Localization and Mapping (V-SLAM) system is an essential method to estimate poses and reconstruct unknown environments. V-SLAM technology is widely used in autonomous robotics, self-driving vehicles, and augmented reality.
+
+V-SLAM needs to deal with multiple types of dynamic environments. Indoor environments, among all the scenarios, is one of the most difficult to deal with, due to a lack of textured surfaces, and irregularly distributed feature points. For example, it is widely accepted that walls, floor and ceiling are low textured and therefore are often not handled well. [PlanarSLAM](https://arxiv.org/abs/2010.07997) by Li et al. is a RGB-D SLAM system with structural regularities which performs well in most indoor scenes. However, in the scenes with cylinder structures (e.g. tunnels), the success rate of plane exactor is quite limited. To solve the problem, we extend PlanarSLAM to enable the cylinder and plane extraction. We name our novel feature slam algorithm based on cylinder and plane as [CP-SLAM]
+
+ps: the cylinder method is still very naive, we will keep moving. Suggestions are appreciated.
 
 ![planarReconstruction](Examples/demo.png)
 
