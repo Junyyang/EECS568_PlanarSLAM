@@ -13,6 +13,9 @@ V-SLAM needs to deal with multiple types of dynamic environments. Indoor environ
 
 ps: the cylinder method is still very naive, we will keep moving. Suggestions are appreciated.
 
+<img width="150" height="150" src="Examples/hospital.png"/>
+<img width="150" height="150" src="Examples/tunnel.png"/>
+
 ![planarReconstruction](Examples/hospital.png)![planarReconstruction](Examples/tunnel.png)
 
 
