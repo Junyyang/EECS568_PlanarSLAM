@@ -1,5 +1,5 @@
 # CP-SLAM
-This work extends [PlanarSLAM](https://arxiv.org/abs/2010.07997) to extract a indoor cylinder surface. 
+This is WN22 EECS 568 Team 5's Final Project.Our work extends [PlanarSLAM](https://arxiv.org/abs/2010.07997) and[CAPE](https://github.com/pedropro/CAPE) to extract a indoor cylinder surface. 
 
 **Authors:** Yuhan Dong, Yechen Shi, Ying Yang, and Junyuan Yang
 
@@ -14,7 +14,7 @@ V-SLAM needs to deal with multiple types of dynamic environments. Indoor environ
 ps: the cylinder method is still very naive, we will keep moving. Suggestions are appreciated.
 
 ![planarReconstruction](Examples/hospital.png)
-
+![planarReconstruction](Examples/tunnel.png)
 
 
 ## Get Started
