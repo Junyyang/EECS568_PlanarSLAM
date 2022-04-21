@@ -13,7 +13,7 @@ V-SLAM needs to deal with multiple types of dynamic environments. Indoor environ
 
 ps: the cylinder method is still very naive, we will keep moving. Suggestions are appreciated.
 
-<img width="300" height="300" src="Examples/hospital.png"/><img width="300" height="300" src="Examples/tunnel.png"/>
+<div align=center><img width="300" height="300" src="Examples/hospital.png"/><img width="300" height="300" src="Examples/tunnel.png"/></div>
 
 
 
