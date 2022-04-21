@@ -21,9 +21,16 @@ ps: the cylinder method is still very naive, we will keep moving. Suggestions ar
 
 
 ## Get Started
-1. Download **'hospital_sample_P000.tar.gz'** and convert depth npy file to png file based on [convert_npy.py](Examples/convert_npy.py) written by us.
+1. Dependencies
+   - C++11 or C++0x Compiler
+   - CMake
+   - Pangolin
+   - OpenCV
+   - Eigen3
+   - DBoW2 and g2o
+2. Download **'hospital_sample_P000.tar.gz'** and convert depth npy file to png file based on [convert_npy.py](Examples/convert_npy.py) written by us.
    To deal with the problem on this data set where the depth map had points from the sky, we exclude the points deviate significantly.
-2. Build and Compile
+3. Build and Compile
 
    ```
    git clone https://github.com/Junyyang/EECS568_PlanarSLAM  
