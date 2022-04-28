@@ -3,6 +3,8 @@ This is WN22 EECS 568 Team 5's Final Project.Our work extends [PlanarSLAM](https
 
 **Authors:** Yuhan Dong, Yechen Shi, Ying Yang, and Junyuan Yang
 
+**Report:** The course report could be found here [EECS 568 Report](https://drive.google.com/file/d/1qaCBniTXLOLAa8ND6DAbVa2H0Omc9Qxj/view?usp=sharing)
+
 
 
 ## Introduction 
